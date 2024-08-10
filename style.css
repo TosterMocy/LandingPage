@@ -17,14 +17,15 @@ body{
     /* align-content: space-around; */
     /* padding: 10px 10px; */
     /* flex: 1; */
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .header{
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    /* flex-shrink: 0; */
 }
 
 
@@ -36,8 +37,8 @@ body{
 
 .header .title{
     display: flex;
-    font-weight: bold;
-    font-size: 28px;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .header ul{
@@ -55,13 +56,65 @@ body{
 }
 
 
+
+
+
 .hero-container{
     display: flex;
     padding-top: 50px;
-    justify-content: center;
-    gap: 20px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    /* align-items:center; */
+    gap: 50px;
 
 }
+
+.left p{
+    /* flex-grow: 1; */
+    color: white;
+    font-size: 16px;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding-right: 90px;
+
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right img{
+    width: 400px;
+    height: auto;
+    flex-grow: 2;
+}
+
+
+button{
+    padding: 8px 28px;
+    background-color: rgb(28, 134, 221);
+    border-radius: 6px;
+    color: white;
+    border-style: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.hero-title{
+    font-size: 38px;
+    color: white;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
 
 .cards-container{
     display: flex;
@@ -72,26 +125,6 @@ body{
 .cards-container h1{
     font-size: 30px;
 }
-
-.left{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-}
-
-.hero-title{
-    font-size: 28px;
-    color: white;
-    font-weight: bold;
-    flex-wrap: wrap;
-}
-
-.left button{
-    flex-grow: 0;
-}
-
-
 
 .footer{
     display: flex;
