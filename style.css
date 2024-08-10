@@ -1,0 +1,106 @@
+body{
+    font-family: Roboto, 'Open Sans', sans-serif;
+    margin: 0px;
+    /* padding: 0px; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    
+}
+
+.header, .hero-container, .footer{
+    background-color: rgb(31, 54, 85);
+}
+
+.header, .body, .footer{
+    /* align-content: space-around; */
+    /* padding: 10px 10px; */
+    /* flex: 1; */
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .title{
+    display: flex;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.header ul{
+    /* margin: auto; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.hero-container{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container h1{
+    font-size: 30px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.hero-title{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.left button{
+    flex-grow: 0;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div{
+    padding: 20px;
+    color: white;
+}
+
